@@ -1,0 +1,375 @@
+  header{
+    width: 100%;
+    height:100px;
+    padding-bottom: 0px;
+    background: linear-gradient(to bottom,
+    rgb(251, 176, 59),
+    rgb(247, 147, 30),
+    rgb(241, 90, 36));
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  .contenedor-nav{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1000px;
+    height:inherit;
+    overflow: hidden;
+  }
+
+  .nav1{
+    background: transparent;
+    height: 94px;
+    color:#fff;
+  }
+  nav .enlaces a{
+    display: inline-block;
+    padding: 5px 0;
+    margin-right: 17px;
+    font-size: 17px;
+    font-weight: 300;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    color: inherit;
+  }
+  
+  nav .enlaces a:hover{
+    border-bottom: 3px solid #1498a4;
+    transition: 0.6s;
+  }
+  
+  .logo, .logo img{ 
+    border-radius: 48px;
+    height:80px;}
+  .hero {
+    background: url(../img/dat2.jpeg);
+    height: 551px;
+}.contenido-hero {
+  margin-top: 80px;
+  color: white;
+}
+.contenido-hero form {
+  position: relative;
+  margin-bottom: 0;
+}
+.contenido-hero form #buscador {
+  height: 50px;
+  margin-bottom: 0;
+}
+.contenido-hero form .submit-buscador {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 0;
+  display: block;
+  text-indent: -9999px;
+  width: 50px;
+  background-image: url(../img/lupa.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  border: none;
+}
+.u-full-width{
+  width: 100%;
+  
+}
+input[type="text"]{
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+}
+.barra {
+  padding: 20px 0;
+  background: #fbaf32;
+  grid-template-columns: 100px 100px 100px;
+  background: -webkit-linear-gradient(left, rgb(251, 176, 59) 0%,rgb(247, 147, 30) 10%, rgb(241, 90, 36) 100% );
+}
+.barra p {
+  margin: 0;
+  color: white;
+}
+
+@media (min-width: 550px){
+.container {
+  width: 80%; }
+.column,
+.columns {
+  margin-left: 4%; }
+.column:first-child,
+.columns:first-child {
+  margin-left: 0; }
+.four.columns {
+    width: 30.6666666667%;
+}}
+@media (min-width: 750px){
+.icono {
+    margin-bottom: 0;
+}}
+
+.icono {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 60px;
+  background-size: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #000;
+  background-color: rgb(247, 147, 30);
+}
+
+.btn-primary {
+  color: rgb(0, 0, 0);
+  background-color: #fbaf32;
+  border-color: #000000;
+}
+.btn-primary:hover{
+  background-color:skyblue;
+  border-color: #000;
+}
+body{
+  background-color: #110f0fea;
+}
+section, .alert{
+  z-index: 100;
+}
+.description{
+  height: 25px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+.description:hover{
+  height: 80px;
+}
+.carrito{
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+.table__productos{
+  display: flex;
+}
+.table__productos > img{
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.table__cantidad > input{
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.hide, .remove{
+  display: none;
+}
+/*=========================================================
+	11 -> FOOTER
+===========================================================*/
+footer {
+ 
+  background: linear-gradient(to bottom,
+    rgb(251, 176, 59),
+    rgb(247, 147, 30),
+    rgb(241, 90, 36)
+    );
+ color: #000000;
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pagina{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+/*Horario y sus telefono y correo*/
+.footer1{
+  max-width: 400px;
+}
+.footer1 h3{
+  color: #fff;
+}
+.footer1 p{
+  color: #000000;
+  margin-top: 20px;
+}
+
+
+.footer-links1{
+  margin-top: 20px;
+  display:block;
+  
+}
+.footer-links1 li{
+  list-style: none;
+}
+.footer-links1 li a .fab{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.footer-links1 li a .fas{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.footer-links1 li a {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #000000;
+  
+}
+.footer-links1 li a:hover{
+  color: #ffffff;
+}
+.footer-links1 li a .far{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
+.footer-links1 li a .fab, .far,.fas{
+  color:#ffffff;
+  font-size: 20px;
+}
+
+
+
+/*Redes sociales*/
+.footer2{
+  max-width: 400px;
+}
+.footer2 h3{
+  color: #fff;
+}
+
+
+
+
+/*Informacion*/
+.footer3{
+  max-width: 400px;
+}
+.footer3 h3{
+color: #fff;
+}
+.footer-links3{
+  margin-top: 20px;
+  display: block;
+    
+  
+}
+.footer-links3 li{
+  list-style: none;
+}
+.footer-links3 li a {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #000000;
+}
+.footer-links3 li a:hover{
+  color: #ffffff;
+}
+/*Servicios*/
+.footer4{
+  max-width: 400px;
+}
+.footer4 h3{
+color: #fff;
+}
+.footer-links4{
+  margin-top: 20px;
+  display:block;
+  
+}
+.footer-links4 li{
+  list-style: none;
+}
+.footer-links4 li a {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #000000;
+}
+.footer-links4 li a:hover{
+  color: #ffffff;
+}
+@media screen and (max-width: 1100px){
+    
+  .container{
+      flex-wrap: wrap;
+  }
+
+  .pagina{
+      flex-wrap: wrap;
+  }
+  
+  .footer1{
+      max-width: 100%;
+  }
+  
+  .footer2,
+  .footer3,
+  .footer4{
+      margin-top: 40px;
+  }
+}
